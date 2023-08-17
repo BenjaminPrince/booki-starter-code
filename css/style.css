@@ -27,10 +27,7 @@ body {
     box-sizing: border-box;
 }
 
-.section-title {
-    margin: 0;
-    font-size: 22px;
-}
+
 
 .card {
     background-color: white;
@@ -150,14 +147,9 @@ body {
 /* Les plus populaires */
 .populaires {
     width: 30%;
-    margin-top: 20px;
 }
 
-.populaires-cards .card {
-    display: flex;
-    margin-top: 33px;
-    width: 100%;
-}
+
 
 .populaires-cards img {
     width: 33%;
@@ -190,10 +182,7 @@ body {
 }
 
 /****** Populaires ***********/
-.populaires {
-    width: 32%;
-    margin-top: 20px;
-}
+
 
 .populaires-title {
     display: flex;
@@ -206,34 +195,6 @@ body {
     margin-top: 33px;
 }
 
-.populaires-cards img {
-    width: 33%;
-    height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.populaires-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-
-.populaires-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
-}
-
-.populaires-cards .card-subtitle {
-    margin: 0;
-}
-
-.populaires-cards .card-rating {
-    margin-bottom: 5px;
-}
 
 /*--- Css navbar ---*/
 
@@ -836,7 +797,6 @@ body{
 footer section{
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
     padding-left: 20px;
 }
 
